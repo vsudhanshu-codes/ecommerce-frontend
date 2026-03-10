@@ -1,0 +1,74 @@
+body{
+    margin:0;
+    font-family:Arial;
+}
+
+/* Header Layout */
+
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background:#222;
+    padding:15px;
+    color:white;
+}
+
+/* Navigation */
+
+.nav{
+    display:flex;
+    gap:20px;
+}
+
+.nav a{
+    text-decoration:none;
+    color:white;
+    font-size:16px;
+}
+
+/* Right Section */
+
+.right-section{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+/* Search Bar */
+
+.search-bar input{
+    padding:7px;
+    border-radius:20px 0 0 20px;
+    border:1px solid #ccc;
+    outline:none;
+}
+
+.search-bar button{
+    padding:7px 12px;
+    border:none;
+    background:#ff9800;
+    color:white;
+    border-radius:0 20px 20px 0;
+}
+
+/* Cart */
+
+.cart{
+    position:relative;
+    font-size:22px;
+    cursor:pointer;
+}
+
+/* Notification Badge */
+
+.badge{
+    position:absolute;
+    top:-8px;
+    right:-10px;
+    background:red;
+    color:white;
+    font-size:12px;
+    padding:2px 6px;
+    border-radius:50%;
+}

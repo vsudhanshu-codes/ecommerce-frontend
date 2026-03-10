@@ -91,8 +91,7 @@ body{
 }
 
 }
-/* step 2 - subtask 2
-Modern Hero Section Styling */
+/* Modern Hero Section Styling */
 .hero{
 height:90vh;
 background-image:url("hero.jpg");
@@ -104,7 +103,7 @@ justify-content:center;
 align-items:center;
 
 text-align:center;
-color:black;
+color:white;
 }
 
 .hero-content{
@@ -130,46 +129,4 @@ text-decoration:none;
 border-radius:30px;
 font-size:18px;
 transition:0.3s;
-}
-
-@media(max-width:768px){
-
-.hero h1{
-font-size:32px;
-}
-
-.hero p{
-font-size:16px;
-}
-
-.cta-btn{
-padding:10px 20px;
-font-size:16px;
-}
-
-}
-
-/*4️⃣ CTA Hover Effect*/
-.cta-btn:hover{
-background:#ff3300;
-transform:scale(1.05);
-}
-
-/*5️⃣ Fade-In Animation*/
-.hero-content{
-animation:fadeIn 2s ease-in-out;
-}
-
-@keyframes fadeIn{
-
-0%{
-opacity:0;
-transform:translateY(30px);
-}
-
-100%{
-opacity:1;
-transform:translateY(0);
-}
-
 }

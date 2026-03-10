@@ -104,7 +104,7 @@ justify-content:center;
 align-items:center;
 
 text-align:center;
-color:black;
+color:white;
 }
 
 .hero-content{
@@ -145,31 +145,6 @@ font-size:16px;
 .cta-btn{
 padding:10px 20px;
 font-size:16px;
-}
-
-}
-
-/*4️⃣ CTA Hover Effect*/
-.cta-btn:hover{
-background:#ff3300;
-transform:scale(1.05);
-}
-
-/*5️⃣ Fade-In Animation*/
-.hero-content{
-animation:fadeIn 2s ease-in-out;
-}
-
-@keyframes fadeIn{
-
-0%{
-opacity:0;
-transform:translateY(30px);
-}
-
-100%{
-opacity:1;
-transform:translateY(0);
 }
 
 }
